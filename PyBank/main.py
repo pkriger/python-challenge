@@ -44,13 +44,6 @@ with open (budget_path, 'r') as budget_file:
 
         prior_value = int(row[1])
     
-    # print("Financial Analysis")
-    # print("----------------------------")
-    # print(f"Total Months: {months}")
-    # print(f"Total: ${total_PL}")
-    # print(f"Average  Change: ${round((final_value-initial_value)/(months-1),2)}")
-    # print(f"Greatest Increase in Profits: {increase_mo} (${increase})")
-    # print(f"Greatest Decrease in Profits: {decrease_mo} (${decrease})")
 
 row1 = ("Financial Analysis")
 row2 = ("----------------------------")
